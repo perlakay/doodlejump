@@ -21,7 +21,7 @@ let doodler = { //whenever you draw on a canvas you need these elements
     y : doodlerX,
     width : doodlerWidth,
     height : doodlerHeight
-}
+} // an object in JS stores things in key value pairs and elements are accessed by the key 
 
 window.onload = function(){ //run function when page loads
     board = document.getElementById("board")
